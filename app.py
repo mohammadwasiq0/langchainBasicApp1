@@ -7,7 +7,7 @@ import streamlit as st
 #import os
 #os.environ["OPENAI_API_KEY"] = "sk-PLfFw23dd932dfg34446dftyvvdfgdfgmvXr2dL8hVowXdt"
 
-HUGGINGFACEHUB_API_TOKEN= "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"
+HUGGINGFACEHUB_API_TOKEN= "ENTER_YOUR_HUGGINGFACEHUB__API_KEY"
 
 from huggingface_hub import login
 login(token = HUGGINGFACEHUB_API_TOKEN)
