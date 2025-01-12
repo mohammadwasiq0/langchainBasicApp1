@@ -40,7 +40,8 @@ def load_answer(question):
     # st.session_state.sessionMessages.append(AIMessage(content=assistant_answer.content))
     st.session_state.sessionMessages.append(AIMessage(content=assistant_answer))
 
-    return assistant_answer.content
+    # return assistant_answer.content
+    return assistant_answer
 
 
 def get_text():
