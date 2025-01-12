@@ -37,7 +37,8 @@ def load_answer(question):
 
     assistant_answer  = chat.invoke(st.session_state.sessionMessages )
 
-    st.session_state.sessionMessages.append(AIMessage(content=assistant_answer.content))
+    # st.session_state.sessionMessages.append(AIMessage(content=assistant_answer.content))
+    st.session_state.sessionMessages.append(AIMessage(content=assistant_answer))
 
     return assistant_answer.content
 
